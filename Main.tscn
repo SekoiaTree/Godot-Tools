@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://TextAppearance.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+margin_right = 1066.0
+margin_bottom = 14.0
+text = "Hello there, this text has an adaptive apparition rate. As you can see, the punctation slows the text down. 
+Use input maps to set when the text appears and disappears. Press D to make me disappear, and A to make me appear"
+script = ExtResource( 1 )
+letterDisappearenceWaitTime = 0.0
+punctDisappearenceWaitTime = 0.0
+otherDisappearenceWaitTime = 0.0
